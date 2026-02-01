@@ -60,7 +60,7 @@ This project follows high-pressure evaluation standards tailored for healthcare 
 - **Multi-hop QA tests**: Verify whether the model can retrieve and integrate information across multiple historical sessions (e.g., computing the duration since the first asthma diagnosis).
 - **MCQ accuracy**: Evaluate the model’s precision in judging the patient’s current pathological state.
 
-Also follows high-pressure evaluation on Locomo.
+## Also follows evaluation on public dataset: Locomo.
 ---
 
 ## 🔬 Citation
