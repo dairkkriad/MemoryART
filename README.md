@@ -49,7 +49,6 @@ Unlike traditional single-channel embedding-based retrieval, MemoryART adopts a 
   1. **Parse**: Use an LLM to extract key actions from raw dialogues.
   2. **Structuring**: Convert them into standardized event structures.
   3. **Indexing**: Build a semantic index via LlamaIndex, augmented with a hard-constraint rule library.
-- **Ablation validation**: The repository includes ablation testing logic over five memory channels such as `summary`, `events`, and `motivations` (`eval_ablation.py`), demonstrating significant gains of multi-channel retrieval over single-channel semantic retrieval.
 
 ---
 
@@ -61,6 +60,7 @@ This project follows high-pressure evaluation standards tailored for healthcare 
 - **Multi-hop QA tests**: Verify whether the model can retrieve and integrate information across multiple historical sessions (e.g., computing the duration since the first asthma diagnosis).
 - **MCQ accuracy**: Evaluate the model’s precision in judging the patient’s current pathological state.
 
+Also follows high-pressure evaluation on Locomo.
 ---
 
 ## 🔬 Citation
