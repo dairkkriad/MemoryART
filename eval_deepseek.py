@@ -34,7 +34,6 @@ Answer:"""
 
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
 
-DEEPSEEK_API_KEY="sk-6af1a5928c1b461291254272beda2792"
 
 DEEPSEEK_API_URL = "https://api.deepseek.com/v1/chat/completions"
 
